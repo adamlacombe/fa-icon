@@ -1,0 +1,28 @@
+:host {
+  display: inline-block;
+}
+
+
+:host(.size-x-small) {
+  font-size: 0.5rem !important;
+}
+
+:host(.size-small) {
+  font-size: 1rem !important;
+}
+
+:host(.size-medium) {
+  font-size: 1.5rem !important;
+}
+
+:host(.size-large) {
+  font-size: 2rem !important;
+}
+
+:host(.size-x-large) {
+  font-size: 3rem !important;
+}
+
+:host(.size-xx-large) {
+  font-size: 4rem !important;
+}

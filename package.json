@@ -1,0 +1,67 @@
+{
+  "name": "@adamlacombe/fa-icon",
+  "version": "0.0.2",
+  "description": "Unofficial web component for Font Awesome 5",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/fa-icon/fa-icon.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.12.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "font awesome",
+    "stencil",
+    "stenciljs",
+    "icon",
+    "web component",
+    "typescript",
+    "svg",
+    "component",
+    "custom element"
+  ],
+  "homepage": "https://github.com/adamlacombe/fa-icon",
+  "author": {
+    "name": "Adam LaCombe",
+    "web": "https://github.com/adamlacombe"
+  },
+  "contributors": [
+    {
+      "name": "Adam LaCombe",
+      "web": "https://github.com/adamlacombe"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamlacombe/fa-icon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adamlacombe/fa-icon/issues"
+  },
+  "license": "MIT"
+}
