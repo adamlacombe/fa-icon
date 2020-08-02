@@ -34,6 +34,16 @@ export class MyComponent {
 <fa-icon type="far" name="surprise" size="medium"></fa-icon>
 ```
 
+## Properties
+
+| Attribute  | Description  | Type  |
+|---|---|---|
+| `type`  |  The icon prefix. | `"fab"` \| `"far"` \| `"fas"`  |
+| `name`  |  The name of the icon. |  `string`  |
+| `size`  |  The size of the icon. | `"large"` \| `"medium"` \| `"small"` \| `"x-large"` \| `"x-small"` \| `"xx-large"`  |
+| `color`  | The color of the icon. This can be a css color name, hex value or custom property.   |  `string`<br>**Examples:** <br>`--primary-color` \| `blue` \| `#c412ef` \| `primary-color` |
+
+
 ## Using this component
 
 ### Script tag
