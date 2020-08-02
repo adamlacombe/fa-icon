@@ -61,13 +61,6 @@ export class FaIcon {
   }
 
   render() {
-    return <Host class={{
-      'size-x-small': (this.size === 'x-small'),
-      'size-small': (this.size === 'small'),
-      'size-medium': (this.size === 'medium'),
-      'size-large': (this.size === 'large'),
-      'size-x-large': (this.size === 'x-large'),
-      'size-xx-large': (this.size === 'xx-large'),
-    }}><div innerHTML={this.svg} style={{ color: this.colorValue }} /></Host>;
+    return <Host class={`size-${this.size}`}><div innerHTML={this.svg} style={{ color: this.colorValue }} /></Host>;
   }
 }
