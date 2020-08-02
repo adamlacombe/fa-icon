@@ -1,6 +1,6 @@
 {
   "name": "@adamlacombe/fa-icon",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Unofficial web component for Font Awesome 5",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
