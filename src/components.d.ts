@@ -9,17 +9,21 @@ import { IconName, } from "@fortawesome/fontawesome-common-types";
 export namespace Components {
     interface FaIcon {
         /**
+          * The color of the icon. This can be a css color name, hex value or custom property. Examples: --primary-color | blue | #c412ef | primary-color
+         */
+        "color"?: string;
+        /**
           * The name of the icon.
          */
         "name": IconName;
         /**
           * The size of the icon.
          */
-        "size"?: "x-small" | "small" | "medium" | "large" | "x-large" | "xx-large";
+        "size": "x-small" | "small" | "medium" | "large" | "x-large" | "xx-large";
         /**
           * The icon prefix.
          */
-        "type": "fas" | "far" | "fab";
+        "type"?: "fas" | "far" | "fab";
     }
 }
 declare global {
@@ -35,6 +39,10 @@ declare global {
 }
 declare namespace LocalJSX {
     interface FaIcon {
+        /**
+          * The color of the icon. This can be a css color name, hex value or custom property. Examples: --primary-color | blue | #c412ef | primary-color
+         */
+        "color"?: string;
         /**
           * The name of the icon.
          */

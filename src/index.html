@@ -8,15 +8,22 @@
   <script type="module" src="/build/fa-icon.esm.js"></script>
   <script nomodule src="/build/fa-icon.js"></script>
 
+  <style>
+    :root {
+      --primary: red;
+      --secondary: green;
+      --green: #08f769;
+    }
+  </style>
 </head>
 <body>
  
   <fa-icon type="far" name="meh-blank" size="x-small"></fa-icon>
-  <fa-icon type="far" name="meh" size="small"></fa-icon>
-  <fa-icon type="far" name="surprise" size="medium"></fa-icon>
-  <fa-icon type="far" name="smile" size="large"></fa-icon>
-  <fa-icon type="far" name="grin-stars" size="x-large"></fa-icon>
-  <fa-icon type="far" name="grin-squint-tears" size="xx-large"></fa-icon>
+  <fa-icon type="far" name="meh" size="small" color="green"></fa-icon>
+  <fa-icon type="far" name="surprise" size="medium" color="secondary"></fa-icon>
+  <fa-icon type="far" name="smile" size="large" color="#ccc"></fa-icon>
+  <fa-icon type="far" name="grin-stars" size="x-large" color="--primary"></fa-icon>
+  <fa-icon type="far" name="grin-squint-tears" size="xx-large" color="blue"></fa-icon>
 
 </body>
 </html>
